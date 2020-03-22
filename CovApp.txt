@@ -1,0 +1,92 @@
+CovApp
+	Start
+		How old are you?
+		 Under 40
+		 40-50
+		 51-60
+		 61-70
+		 71-80
+		 Over 80
+		What is your current living situation?
+		 Living alone
+		 Living together with family, in a shared flat, or in a supervised community facility
+		Do you work in one of the following areas?
+		 In the medical field
+		 In a community facility (…)
+		 No, in none of the above
+		Do you smoke?
+		 Yes
+		 No
+		Have you been traveling in the past 4 weeks? (within Germany or abroad)
+		 Yes
+		 No
+		Have you had close contact with a confirmed case?
+		 Yes
+		 No
+		Have you had close contact with a suspected case?
+		 Yes
+		 No
+		Have you had a fever (over 38°C) in the past 24 hours?
+		 Yes
+		 No
+		Have you had a fever (over 38°C) in the past 4 days?
+		 Yes
+		 No
+		Do you have chills?
+		 Yes
+		 No
+		Do you feel tired or weak?
+		 Yes
+		 No
+		Do you have limb pain?
+		 Yes
+		 No
+		Do you have persistent cough?
+		 Yes
+		 No
+		Are you sniffling?
+		 Yes
+		 No
+		Do you have diarrhea?
+		 Yes
+		 No
+		Do you have a sore throat?
+		 Yes
+		 No
+		Do you have a headache?
+		 Yes
+		 No
+		Are you out of breath faster than usual?
+		 Yes
+		 No
+		Do you have a chronic lung disease?
+		 Yes
+		 No
+		 I don’t know
+		Do you have diabetes?
+		 Yes
+		 No
+		 I don’t know
+		Do you have heart disease?
+		 Yes
+		 No
+		 I don’t know
+		Do you have obesity?
+		 Yes
+		 No
+		 I don’t know
+		Are you pregnant?
+		 Yes
+		 No
+		 I don’t know
+		Are you currently taking steroids?
+		 Yes
+		 No
+		 I don’t know
+		Are you currently taking immunosuppressants?
+		 Yes
+		 No
+		 I don’t know
+		Have you been vaccinated against flu betwen October 2019 and today?
+		 Yes
+		 No
