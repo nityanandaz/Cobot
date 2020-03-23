@@ -1,15 +1,18 @@
 # Cobot
 A bot that matches patients and doctors during the COVID-19 pandemic.
 
+# Execution
+```shell
+$ python -m cobot --help
+```
+
 # Ressources
 
-## CovApp
-[Website](https://covapp.charite.de)
+## [CovApp](https://covapp.charite.de)
 
 We _copied_ questions from CovApp, an online questionnaire.
 
-## Call 116 117
-
+## [116 117](https://www.116117.de/de/index.php) 
 Themen:
 - Erkrankung erkennen und schützen
     - Grippeähnlichesymptome
@@ -24,5 +27,3 @@ Themen:
 - Fragen zu Krankschreibung
 - Praxisbesuch
 - Krank, medizinische Hilfe
-
-[Website](https://www.116117.de/de/index.php)
