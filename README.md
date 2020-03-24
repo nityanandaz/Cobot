@@ -7,7 +7,6 @@ $ python -m cobot --help
 ```
 
 # Ressources
-
 ## [CovApp](https://covapp.charite.de)
 
 We _copied_ questions from CovApp, an online questionnaire.

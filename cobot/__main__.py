@@ -1,36 +1,6 @@
 import argparse
-# import curses
-
-from telegram.ext import Updater, CommandHandler
-
-from cobot.hello import Hello
-from cobot.questionnaire import Questionnaire
-
-
-class Telegram:
-    def __init__(self):
-        self.token = None
-
-        with open("secrets/token.txt") as f:
-            self.token = f.readline()[:-1]
-
-    def __call__(self):
-        updater = Updater(self.token, use_context=True)
-
-        updater.dispatcher.add_handler(CommandHandler("hello", Hello()))
-        updater.dispatcher.add_handler(CommandHandler("ask", Questionnaire()))
-
-        print("Start polling.")
-        updater.start_polling()
-        updater.idle()
-
-
-class CLI:
-    def __init__(self, username):
-        self.username = username
-
-    def __call__(self):
-        print(self.username)
+from cobot.cli import cli
+from cobot.telegram import Telegram
 
 
 if __name__ == "__main__":
@@ -64,6 +34,5 @@ if __name__ == "__main__":
 
     username = args.get("username")
     if username != None:
-        cli = CLI(username)
-        cli()
+        cli(username)
         exit()
