@@ -30,6 +30,11 @@ Themen:
 - Praxisbesuch
 - Krank, medizinische Hilfe
 
+## References
+
+- [Telegram Bots](https://core.telegram.org/bots)
+- [Python Telegram Bot](https://github.com/python-telegram-bot/python-telegram-bot)
+
 ## License
 
 MIT
