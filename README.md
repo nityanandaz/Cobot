@@ -1,22 +1,25 @@
-# Cobot
+# Cobot (WIP)
+
 A bot that matches patients and doctors during the COVID-19 pandemic.
 
-# Execution
+## Execution
+
 ```shell
 $ python -m cobot --help
 ```
 
-# Ressources
-## [CovApp](https://covapp.charite.de)
+## Ressources
+
+### [CovApp](https://covapp.charite.de)
 
 We _copied_ questions from CovApp, an online questionnaire.
 
-## [116 117](https://www.116117.de/de/index.php) 
+### [116 117](https://www.116117.de/de/index.php)
+
 Themen:
 - Erkrankung erkennen und schützen
     - Grippeähnlichesymptome
-    - www.rki.de
-
+    - [RKI](www.rki.de)
     - Hände waschen
     - Kontakt meiden
 - Kommt ein Test in Frage?
@@ -26,3 +29,7 @@ Themen:
 - Fragen zu Krankschreibung
 - Praxisbesuch
 - Krank, medizinische Hilfe
+
+## License
+
+MIT
